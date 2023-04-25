@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,79 +6,168 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<header>
+ 
+    <img src="https://www.cotodigital3.com.ar/sitios/cdigi/static/content/images/cdigi/logo.png"/>
+    <h4>Qué querés comprar hoy?</h4>
+    
+    
+
+</header>
 <body>
     <main>
-        <h1>TITLE</h1>
+        <h2>Registrate</h2>
+
+        <h3>Mis Datos</h3>
         <form action="">
-            <label for="email">
-                Email
-            </label>
-            <input type="email" id="email"/>
+
             <div>
-                <label for="name">Nombre</label>
-                <input type="text" id="name" />
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" />
             </div>
+            <br>
             <div>
-                <label for="last_name">Apellido</label>
-                <input type="text" id="last_name" />
+                <label for="apellido">Apellido</label>
+                <input type="text" id="apellido" />
             </div>
+            <br>
+            
             <div>
-                <label for="age">Edad</label>
-                <input type="number" id="age" min="15" max="80"/>
+                <label>País</label>
+                <select>
+                    <option value="r-A">Argentina</option>
+                    <option value="r-EEUU">Estados Unidos</option>
+                    <option value="r-B">Bolivia</option>
+                    <option value="r-R">Brasil</option>
+                </select>
             </div>
+            <br>
             <div>
-                <legend>Estudios</legend>
-                <label for="primary_studies">Primario</label>
-                <input type="checkbox" id="primary_studies" />
-
-                <label for="secondary_studies">Terciario</label>
-                <input type="checkbox" id="secondary_studies" />
-
-                <legend>Estado Civil</legend>
-                <label for="single">Soltero</label>
-                <input type="radio" id="single" name="estado_civil"/>
-
-                <label for="married">Casado</label>
-                <input type="radio" id="single" name="estado_civil"/>
-                <div>
-                    <label>Sede</label>
-                    <select>
-                        <option value="r-l">Rosario - Lagos</option>
-                        <option value="r-p">Rosario - Pellegrini</option>
-                        <option value="ba">Buenos Aires</option>
-                    </select>
-                </div>
-                <div>
-                    <label for="date">Fecha de Nacimiento</label>"
-                    <input type="date"  id="date"/>
-                </div>
-                <div>
-                    <label for=""password">Contraseña</label>
-                    <input type="password" id="password" />
-                </div>
-                <div>
-                    <label>Deja tu comentario</label>
-                    <textarea name=""></textarea>
-                </div>
-                <div>
-                    <label>Edad</label>
-                    <input type="range"/>
-                </div>
-
-                <div>
-                    <input type="button" value="Azul"/>
-                </div>
-
-                <div>
-                    <input type="color"/>
-                </div>
-
-                <div>
-                    <input type="file" value="archivo" required/>
-                </div>
-
+                <label>Fecha Nacimiento</label>
+                <label>Día</label>
+                <select>
+                    <option value="r-1">1</option>
+                    <option value="r-2">2</option>
+                    <option value="r-3">3</option>
+                    <option value="r-4">4</option>
+                    <option value="r-5">5</option>
+                    <option value="r-6">6</option>
+                    <option value="r-7">7</option>
+                    <option value="r-8">8</option>
+                    <option value="r-9">9</option>
+                    <option value="r-10">10</option>
+                    <option value="r-11">11</option>
+                    <option value="r-12">12</option>
+                    <option value="r-13">13</option>
+                    <option value="r-14">14</option>
+                    <option value="r-15">15</option>
+                    <option value="r-16">16</option>
+                    <option value="r-17">17</option>
+                    <option value="r-18">18</option>
+                    <option value="r-19">19</option>
+                    <option value="r-20">20</option>
+                    <option value="r-21">21</option>
+                    <option value="r-22">22</option>
+                    <option value="r-23">23</option>
+                    <option value="r-24">24</option>
+                    <option value="r-25">25</option>
+                    <option value="r-26">26</option>
+                    <option value="r-27">27</option>
+                    <option value="r-28">28</option>
+                    <option value="r-29">29</option>
+                    <option value="r-30">30</option>
+                    <option value="r-31">31</option>
+                </select>
+                <label>Mes</label>
+                <select>
+                    <option value="r-En">Enero</option>
+                    <option value="r-Fe">Febrero</option>
+                    <option value="r-Ma">Marzo</option>
+                    <option value="r-Ab">Abril</option>
+                    <option value="r-Ma">Mayo</option>
+                    <option value="r-Jn">Junio</option>
+                    <option value="r-Jl">Julio</option>
+                    <option value="r-Ag">Agosto</option>
+                    <option value="r-Se">Septiembre</option>
+                    <option value="r-Oc">Octubre</option>
+                    <option value="r-No">Noviembre</option>
+                    <option value="r-Di">Diciembre</option>
+                </select>
+                <label for="date">Año</label>
+                <input type="year"  id="date"/>
+            </div>
+            <br>
+            <div>
+                <label>Sexo</label>
+                <select>
+                    <option value="r-M">Masculino</option>
+                    <option value="r-F">Femenino</option>
+                    <option value="r-N">Nunca lo sabrás muahhhh</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label>Documento</label>
+                <select>
+                    <option value="r-Dn">DNI</option>
+                    <option value="r-Le">LE</option>
+                    <option value="r-Pa">Pasaporte</option>
+                </select>
+                <label for="doc"></label>
+                <input type="number" id="doc"/>
+                
+            </div>
+            <br>
+            <div>
+                <label>Estado Civil</label>
+                <select>
+                    <option value="r-Dn">Soltero/a</option>
+                    <option value="r-Le">Casado/a</option>
+                    <option value="r-Pa">Separado/a</option>
+                    <option value="r-Le">Viudo/a</option>
+                    <option value="r-Pa">Concubino/a</option>
+                </select>
+                               
+            </div>
+            <br>
+            <div>
+                <label for="email">eMail</label>
+                <input type="text" id="email" />
+            </div>
+            <br>
+            <div>
+                <label>Cómo nos conociste?</label>
+                <select>
+                    <option value="r-c1">No recuerdo</option>
+                    <option value="r-c2">Televisión</option>
+                    <option value="r-c3">Artículo en prensa</option>
+                    <option value="r-c4">Publicidad on line</option>
+                    <option value="r-c5">Amigo</option>
+                    <option value="r-c6">Sitio WEB</option>
+                    <option value="r-c7">Televisión</option>
+                    <option value="r-c8">Facebook</option>
+                    <option value="r-c9">Tweeter</option>
+                    <option value="r-c10">Youtube</option>
+                    <option value="r-c11">Instagram</option>
+                    <option value="r-c12">Buscadores</option>
+                    <option value="r-c13">Folleto</option>
+                    <option value="r-c14">email</option>
+                </select>
+            </div>
+            <br>
+ 
+            <div>
+                <label for="carac">teléfono</label>
+                <label for="carac">(</label>
+                <input type="text" id="carac" />
+                <label for="telefono">)</label>
+                <input type="text" id="telefono" />
+            </div>
+            <br>
+            
+            <div>    
                 <button type="submit">
-                    Registrar
+                    Crear mi cuenta
                 </button>
                 
             </div>
